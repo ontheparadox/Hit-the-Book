@@ -24,6 +24,30 @@ public class Overloading {
 			
 			display();
 			
+			//---- 오버로딩 테스트 메소드 ----
+			
+//			public void display(int num) {}
+//			
+//			public void display(double num) {}
+//			
+//			public void (String data, int num) {}
+//			
+//			public void display(int num, String data) {}
+			
+			
+			//에러, 매개변수의 이름이 달라도 자료형 형태가 같으면 오버로딩 되지 않음
+			//  public void display(int data){}
+			
+			//에러, 접근제한자는 오버로딩 조건에 포함되지 않는다
+			//	private void display(double num){}
+			
+			//에러, 반환타입만 다를 때 오버로딩되지 않는다
+			//	public int display(){
+			//		return 0;
+			// }
+			
+			
+			
 		}
 		
 		
