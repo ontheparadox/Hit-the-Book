@@ -17,10 +17,12 @@ public class Overloading {
 //			this.x = x;
 //			this.y = y;
 			
-			setX(x);
-			setY(y);
+			this.setX(x);
+			this.setY(y);
 			
-			System.out.println("(" + x + ", " + y + ")");
+//			System.out.println("(" + x + ", " + y + ")");
+			
+			display();
 			
 		}
 		
