@@ -11,8 +11,8 @@ class Constructor_02 {
 		
 		System.out.println("매개변수가 2개인 생성자");
 		
-		this.n1 = n1;
-		this.n2 = n2;
+//		this.n1 = n1;
+//		this.n2 = n2;
 		
 		
 	}
@@ -67,6 +67,12 @@ public class ConstructorEx_02 {
 		System.out.println("----------------------");
 		
 		Constructor_02 cons02 = new Constructor_02(555, 666);
+		
+		System.out.println("----------------------");
+		
+		Constructor_02 cons03 = new Constructor_02(999);
+		cons03.out();
+		
 		
 	}
 }
